@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #00173d"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/calligraffitti"
+            android:text="@string/music_album_review"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="235dp"
+            android:layout_height="241dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/image_2"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Shawn makes music for stadium-show attendees to belt back at him, but the songs he writes about himself are always better than the lover-boy pablum. “Monster,” a song about voyeuristic celebrity fandom and the glee with which we watch the people we’ve built up fall down, goes a long way toward explaining why he keeps his guard up, although the sentiment rings truer from guest star Justin Bieber . “Call My Friends” laments feeling like your buddies’ lives are passing you by; the pure ache for benign niceties like zoning out on the couch stoned with friends almost makes it a tearjerker in a pandemic. If you came to Wonder to find out what’s going on behind the brown doe eyes, underneath the too-perfect Superboy veneer, you won’t get much closer to the story. "
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

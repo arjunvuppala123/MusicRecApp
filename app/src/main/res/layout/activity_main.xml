@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="5dp"
+android:background="#302F2F"
+tools:context="com.example.musicrecapp.MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:fontFamily="serif-monospace"
+    android:gravity="center"
+    android:text="User Registration"
+    android:textColor="#FAF9F9"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/EditText_User_EmailID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView"
+    android:layout_marginTop="250dp"
+    android:backgroundTint="@color/white"
+    android:gravity="center"
+    android:hint="Enter Your Email Here"
+    android:textColor="#F6F2F2"
+    android:textColorHint="#F6F6F6" />
+
+<EditText
+    android:id="@+id/EditText_User_Password"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/EditText_User_EmailID"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="@color/white"
+    android:gravity="center"
+    android:hint="Enter Your Password Here"
+    android:inputType="textPassword"
+    android:textColor="#FAF7F7"
+    android:textColorHint="#F6F6F6" />
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="258dp"
+    android:layout_height="211dp"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/music" />
+<Button
+    android:id="@+id/Button_SignUp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/EditText_User_Password"
+    android:layout_marginTop="40dp"
+    android:background="#FFFFFF"
+    android:text="Click Here To Sign Up"
+    android:textColorHint="#F6F6F6" />
+
+<Button
+    android:id="@+id/Button_LoginActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Button_SignUp"
+    android:layout_marginTop="20dp"
+    android:text="ALREADY SIGN UP ? LOGIN FROM HERE" />
+
+</RelativeLayout>

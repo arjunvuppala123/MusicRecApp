@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393C3A"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+    <ImageView
+        android:layout_marginStart="12dp"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:src="@drawable/music2"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/projetname"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        android:layout_marginTop="215dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #00173d"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/calligraffitti"
+            android:text="Meet India's latest Artist!                  Achint Thakkar"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="294dp"
+            android:layout_height="246dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/image_3"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Composer and guitarist Achint Thakkar, who started his musical journey with the three-piece psychedelic band Rosemary, is a graduate of the Mithibai College from Mumbai.  His musical journey actually began with college competitions, where he also met and became friends with Jai Mehta, the co-director of Scam 1992 and the person who first asked Achint to work as a musical composer on Scam 1992.  While Scam 1992 may have pushed him to widespread fame, it's not the first web series Thakkar has worked on. He also worked with music composer Mikey McCleary for Amazon Prime Video's 4 More Shots Please! "
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="413dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
